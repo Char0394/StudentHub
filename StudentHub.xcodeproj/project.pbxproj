@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A8AB94920489DD7002BDFC7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8AB94820489DD7002BDFC7 /* LoginViewController.swift */; };
+		5A8AB94B2048A11F002BDFC7 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8AB94A2048A11F002BDFC7 /* SignUpViewController.swift */; };
+		5A8AB94F2048A58E002BDFC7 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8AB94E2048A58E002BDFC7 /* AlertHelper.swift */; };
+		5A8AB9542048A7DA002BDFC7 /* CloudKitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8AB9532048A7DA002BDFC7 /* CloudKitHelper.swift */; };
+		5A907D642049404D00984270 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A907D632049404D00984270 /* UserDefaults.swift */; };
+		5A907D6620494F7B00984270 /* GroupsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A907D6520494F7B00984270 /* GroupsTableViewController.swift */; };
+		5A907D68204952DA00984270 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A907D67204952DA00984270 /* SettingsViewController.swift */; };
+		5A907D6C204952F400984270 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A907D6B204952F400984270 /* ChatViewController.swift */; };
+		5A907D6E2049531200984270 /* CreateGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A907D6D2049531200984270 /* CreateGroupViewController.swift */; };
+		5A907D722049554800984270 /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A907D712049554800984270 /* GroupCell.swift */; };
+		5A907D742049572900984270 /* GroupsTableViewController+FRCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A907D732049572900984270 /* GroupsTableViewController+FRCDelegate.swift */; };
+		5A907D7620495AF400984270 /* GroupManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A907D7520495AF400984270 /* GroupManager.swift */; };
+		5A907D782049620600984270 /* CKAssetHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A907D772049620600984270 /* CKAssetHelper.swift */; };
+		5A95ED83204D5F0100D08ECD /* ChatViewController+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A95ED82204D5F0100D08ECD /* ChatViewController+UITableView.swift */; };
+		5A95ED85204D5F5400D08ECD /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A95ED84204D5F5400D08ECD /* TextCell.swift */; };
+		5A95ED87204D614A00D08ECD /* MessageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A95ED86204D614A00D08ECD /* MessageManager.swift */; };
+		5A95ED8B204D93E800D08ECD /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A95ED8A204D93E800D08ECD /* UserManager.swift */; };
+		5A95ED8D204D9AC100D08ECD /* ChatViewController+FRCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A95ED8C204D9AC100D08ECD /* ChatViewController+FRCDelegate.swift */; };
+		5A95ED8F204DC25800D08ECD /* CKAsset+resizedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A95ED8E204DC25800D08ECD /* CKAsset+resizedImage.swift */; };
+		5A95ED91204DC27500D08ECD /* UIImage+resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A95ED90204DC27500D08ECD /* UIImage+resize.swift */; };
+		5A95ED93204DCD5900D08ECD /* SignUpViewController+ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A95ED92204DCD5900D08ECD /* SignUpViewController+ImagePicker.swift */; };
+		5A9FE5482057EAA5005B3F93 /* ImageTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9FE5472057EAA5005B3F93 /* ImageTransformer.swift */; };
+		5AD11E7420481B2B00037D7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD11E7320481B2B00037D7A /* AppDelegate.swift */; };
+		5AD11E7920481B2B00037D7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AD11E7720481B2B00037D7A /* Main.storyboard */; };
+		5AD11E7C20481B2B00037D7A /* StudentHub.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5AD11E7A20481B2B00037D7A /* StudentHub.xcdatamodeld */; };
+		5AD11E7E20481B2B00037D7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AD11E7D20481B2B00037D7A /* Assets.xcassets */; };
+		5AD11E8120481B2B00037D7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AD11E7F20481B2B00037D7A /* LaunchScreen.storyboard */; };
+		842F32152053C7CA007A5C8E /* CreateGroupViewController+ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842F32142053C7CA007A5C8E /* CreateGroupViewController+ImagePicker.swift */; };
+		8469030E205207E2004FD72E /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8469030D205207E2004FD72E /* CloudKit.framework */; };
+		84C171EC2054A4D3009D53D6 /* SettingsViewController+ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C171EB2054A4D3009D53D6 /* SettingsViewController+ImagePicker.swift */; };
+		84C171EE205585A7009D53D6 /* EditGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C171ED205585A7009D53D6 /* EditGroupViewController.swift */; };
+		84C171F0205585D5009D53D6 /* EditGroupViewController+ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C171EF205585D5009D53D6 /* EditGroupViewController+ImagePicker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A8AB94820489DD7002BDFC7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5A8AB94A2048A11F002BDFC7 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		5A8AB94E2048A58E002BDFC7 /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
+		5A8AB9532048A7DA002BDFC7 /* CloudKitHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitHelper.swift; sourceTree = "<group>"; };
+		5A907D632049404D00984270 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		5A907D6520494F7B00984270 /* GroupsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsTableViewController.swift; sourceTree = "<group>"; };
+		5A907D67204952DA00984270 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		5A907D6B204952F400984270 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		5A907D6D2049531200984270 /* CreateGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupViewController.swift; sourceTree = "<group>"; };
+		5A907D712049554800984270 /* GroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCell.swift; sourceTree = "<group>"; };
+		5A907D732049572900984270 /* GroupsTableViewController+FRCDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GroupsTableViewController+FRCDelegate.swift"; sourceTree = "<group>"; };
+		5A907D7520495AF400984270 /* GroupManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupManager.swift; sourceTree = "<group>"; };
+		5A907D772049620600984270 /* CKAssetHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKAssetHelper.swift; sourceTree = "<group>"; };
+		5A95ED82204D5F0100D08ECD /* ChatViewController+UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChatViewController+UITableView.swift"; sourceTree = "<group>"; };
+		5A95ED84204D5F5400D08ECD /* TextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
+		5A95ED86204D614A00D08ECD /* MessageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageManager.swift; sourceTree = "<group>"; };
+		5A95ED8A204D93E800D08ECD /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		5A95ED8C204D9AC100D08ECD /* ChatViewController+FRCDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChatViewController+FRCDelegate.swift"; sourceTree = "<group>"; };
+		5A95ED8E204DC25800D08ECD /* CKAsset+resizedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CKAsset+resizedImage.swift"; sourceTree = "<group>"; };
+		5A95ED90204DC27500D08ECD /* UIImage+resize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+resize.swift"; sourceTree = "<group>"; };
+		5A95ED92204DCD5900D08ECD /* SignUpViewController+ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignUpViewController+ImagePicker.swift"; sourceTree = "<group>"; };
+		5A9FE5472057EAA5005B3F93 /* ImageTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTransformer.swift; sourceTree = "<group>"; };
+		5AD11E7020481B2B00037D7A /* StudentHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudentHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AD11E7320481B2B00037D7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5AD11E7820481B2B00037D7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5AD11E7B20481B2B00037D7A /* StudentHub.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StudentHub.xcdatamodel; sourceTree = "<group>"; };
+		5AD11E7D20481B2B00037D7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5AD11E8020481B2B00037D7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5AD11E8220481B2B00037D7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AD11E8820481B3C00037D7A /* StudentHub.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StudentHub.entitlements; sourceTree = "<group>"; };
+		842F32142053C7CA007A5C8E /* CreateGroupViewController+ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CreateGroupViewController+ImagePicker.swift"; sourceTree = "<group>"; };
+		8469030D205207E2004FD72E /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		84C171EB2054A4D3009D53D6 /* SettingsViewController+ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsViewController+ImagePicker.swift"; sourceTree = "<group>"; };
+		84C171ED205585A7009D53D6 /* EditGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditGroupViewController.swift; sourceTree = "<group>"; };
+		84C171EF205585D5009D53D6 /* EditGroupViewController+ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EditGroupViewController+ImagePicker.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AD11E6D20481B2B00037D7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8469030E205207E2004FD72E /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A8AB94520489D88002BDFC7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5A8AB94820489DD7002BDFC7 /* LoginViewController.swift */,
+				5A8AB94A2048A11F002BDFC7 /* SignUpViewController.swift */,
+				5A95ED92204DCD5900D08ECD /* SignUpViewController+ImagePicker.swift */,
+				5A907D6520494F7B00984270 /* GroupsTableViewController.swift */,
+				5A907D732049572900984270 /* GroupsTableViewController+FRCDelegate.swift */,
+				5A907D712049554800984270 /* GroupCell.swift */,
+				5A907D67204952DA00984270 /* SettingsViewController.swift */,
+				84C171EB2054A4D3009D53D6 /* SettingsViewController+ImagePicker.swift */,
+				5A907D6B204952F400984270 /* ChatViewController.swift */,
+				5A95ED8C204D9AC100D08ECD /* ChatViewController+FRCDelegate.swift */,
+				5A95ED82204D5F0100D08ECD /* ChatViewController+UITableView.swift */,
+				5A95ED84204D5F5400D08ECD /* TextCell.swift */,
+				5A907D6D2049531200984270 /* CreateGroupViewController.swift */,
+				842F32142053C7CA007A5C8E /* CreateGroupViewController+ImagePicker.swift */,
+				84C171ED205585A7009D53D6 /* EditGroupViewController.swift */,
+				84C171EF205585D5009D53D6 /* EditGroupViewController+ImagePicker.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5A8AB94620489D8F002BDFC7 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				5AD11E7A20481B2B00037D7A /* StudentHub.xcdatamodeld */,
+				5A9FE5472057EAA5005B3F93 /* ImageTransformer.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		5A8AB94720489D96002BDFC7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5A8AB94E2048A58E002BDFC7 /* AlertHelper.swift */,
+				5A8AB9532048A7DA002BDFC7 /* CloudKitHelper.swift */,
+				5A907D632049404D00984270 /* UserDefaults.swift */,
+				5A907D772049620600984270 /* CKAssetHelper.swift */,
+				5A95ED8E204DC25800D08ECD /* CKAsset+resizedImage.swift */,
+				5A95ED90204DC27500D08ECD /* UIImage+resize.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		5A8AB9502048A65C002BDFC7 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				5A907D7520495AF400984270 /* GroupManager.swift */,
+				5A95ED86204D614A00D08ECD /* MessageManager.swift */,
+				5A95ED8A204D93E800D08ECD /* UserManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		5AD11E6720481B2B00037D7A = {
+			isa = PBXGroup;
+			children = (
+				5AD11E7220481B2B00037D7A /* StudentHub */,
+				5AD11E7120481B2B00037D7A /* Products */,
+				5AD11E8920481B4200037D7A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5AD11E7120481B2B00037D7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AD11E7020481B2B00037D7A /* StudentHub.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AD11E7220481B2B00037D7A /* StudentHub */ = {
+			isa = PBXGroup;
+			children = (
+				5A8AB9502048A65C002BDFC7 /* Managers */,
+				5A8AB94720489D96002BDFC7 /* Helpers */,
+				5A8AB94620489D8F002BDFC7 /* CoreData */,
+				5A8AB94520489D88002BDFC7 /* ViewControllers */,
+				5AD11E8820481B3C00037D7A /* StudentHub.entitlements */,
+				5AD11E7320481B2B00037D7A /* AppDelegate.swift */,
+				5AD11E7720481B2B00037D7A /* Main.storyboard */,
+				5AD11E7D20481B2B00037D7A /* Assets.xcassets */,
+				5AD11E7F20481B2B00037D7A /* LaunchScreen.storyboard */,
+				5AD11E8220481B2B00037D7A /* Info.plist */,
+			);
+			path = StudentHub;
+			sourceTree = "<group>";
+		};
+		5AD11E8920481B4200037D7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8469030D205207E2004FD72E /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AD11E6F20481B2B00037D7A /* StudentHub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AD11E8520481B2B00037D7A /* Build configuration list for PBXNativeTarget "StudentHub" */;
+			buildPhases = (
+				5AD11E6C20481B2B00037D7A /* Sources */,
+				5AD11E6D20481B2B00037D7A /* Frameworks */,
+				5AD11E6E20481B2B00037D7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StudentHub;
+			productName = StudentHub;
+			productReference = 5AD11E7020481B2B00037D7A /* StudentHub.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AD11E6820481B2B00037D7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Universidad San Jorge";
+				TargetAttributes = {
+					5AD11E6F20481B2B00037D7A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 5AD11E6B20481B2B00037D7A /* Build configuration list for PBXProject "StudentHub" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AD11E6720481B2B00037D7A;
+			productRefGroup = 5AD11E7120481B2B00037D7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AD11E6F20481B2B00037D7A /* StudentHub */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AD11E6E20481B2B00037D7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD11E8120481B2B00037D7A /* LaunchScreen.storyboard in Resources */,
+				5AD11E7E20481B2B00037D7A /* Assets.xcassets in Resources */,
+				5AD11E7920481B2B00037D7A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AD11E6C20481B2B00037D7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A8AB94920489DD7002BDFC7 /* LoginViewController.swift in Sources */,
+				84C171EC2054A4D3009D53D6 /* SettingsViewController+ImagePicker.swift in Sources */,
+				5A907D6620494F7B00984270 /* GroupsTableViewController.swift in Sources */,
+				5A907D68204952DA00984270 /* SettingsViewController.swift in Sources */,
+				5A95ED85204D5F5400D08ECD /* TextCell.swift in Sources */,
+				5A95ED91204DC27500D08ECD /* UIImage+resize.swift in Sources */,
+				5AD11E7C20481B2B00037D7A /* StudentHub.xcdatamodeld in Sources */,
+				5A95ED87204D614A00D08ECD /* MessageManager.swift in Sources */,
+				5A8AB94F2048A58E002BDFC7 /* AlertHelper.swift in Sources */,
+				5A95ED8B204D93E800D08ECD /* UserManager.swift in Sources */,
+				5A95ED83204D5F0100D08ECD /* ChatViewController+UITableView.swift in Sources */,
+				842F32152053C7CA007A5C8E /* CreateGroupViewController+ImagePicker.swift in Sources */,
+				5A907D742049572900984270 /* GroupsTableViewController+FRCDelegate.swift in Sources */,
+				5AD11E7420481B2B00037D7A /* AppDelegate.swift in Sources */,
+				5A907D722049554800984270 /* GroupCell.swift in Sources */,
+				5A907D642049404D00984270 /* UserDefaults.swift in Sources */,
+				84C171F0205585D5009D53D6 /* EditGroupViewController+ImagePicker.swift in Sources */,
+				84C171EE205585A7009D53D6 /* EditGroupViewController.swift in Sources */,
+				5A95ED8D204D9AC100D08ECD /* ChatViewController+FRCDelegate.swift in Sources */,
+				5A907D6E2049531200984270 /* CreateGroupViewController.swift in Sources */,
+				5A95ED8F204DC25800D08ECD /* CKAsset+resizedImage.swift in Sources */,
+				5A907D6C204952F400984270 /* ChatViewController.swift in Sources */,
+				5A95ED93204DCD5900D08ECD /* SignUpViewController+ImagePicker.swift in Sources */,
+				5A9FE5482057EAA5005B3F93 /* ImageTransformer.swift in Sources */,
+				5A907D782049620600984270 /* CKAssetHelper.swift in Sources */,
+				5A8AB94B2048A11F002BDFC7 /* SignUpViewController.swift in Sources */,
+				5A8AB9542048A7DA002BDFC7 /* CloudKitHelper.swift in Sources */,
+				5A907D7620495AF400984270 /* GroupManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5AD11E7720481B2B00037D7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AD11E7820481B2B00037D7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5AD11E7F20481B2B00037D7A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AD11E8020481B2B00037D7A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AD11E8320481B2B00037D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5AD11E8420481B2B00037D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AD11E8620481B2B00037D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = StudentHub/StudentHub.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RDV2KJUFH7;
+				INFOPLIST_FILE = StudentHub/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = es.usj.studenthub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5AD11E8720481B2B00037D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = StudentHub/StudentHub.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RDV2KJUFH7;
+				INFOPLIST_FILE = StudentHub/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = es.usj.studenthub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AD11E6B20481B2B00037D7A /* Build configuration list for PBXProject "StudentHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AD11E8320481B2B00037D7A /* Debug */,
+				5AD11E8420481B2B00037D7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AD11E8520481B2B00037D7A /* Build configuration list for PBXNativeTarget "StudentHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AD11E8620481B2B00037D7A /* Debug */,
+				5AD11E8720481B2B00037D7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5AD11E7A20481B2B00037D7A /* StudentHub.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5AD11E7B20481B2B00037D7A /* StudentHub.xcdatamodel */,
+			);
+			currentVersion = 5AD11E7B20481B2B00037D7A /* StudentHub.xcdatamodel */;
+			path = StudentHub.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5AD11E6820481B2B00037D7A /* Project object */;
+}

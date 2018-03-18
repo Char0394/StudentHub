@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="ipad12_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="4XN-z1-2bE">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                                <viewLayoutGuide key="safeArea" id="AsK-Ke-T8e"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ezh-ef-iBv">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="XUZ-ZR-SiV">
+                                    <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="yEk-2H-f9c">
+                                            <rect key="frame" x="450" y="620.5" width="125" height="125"/>
+                                            <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                        </imageView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="UGB-D2-iFS">
+                                            <rect key="frame" x="405" y="1248" width="215" height="48"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Student" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ni-yY-i0q">
+                                                    <rect key="frame" x="0.0" y="0.0" width="135" height="48"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="135" id="TXv-hU-SKG"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="40"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hub" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DMX-n4-ca3">
+                                                    <rect key="frame" x="135" y="0.0" width="80" height="48"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="80" id="Imz-28-Ey6"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="40"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="DMX-n4-ca3" secondAttribute="trailing" id="16h-CC-IyC"/>
+                                                <constraint firstItem="DMX-n4-ca3" firstAttribute="leading" secondItem="3Ni-yY-i0q" secondAttribute="trailing" id="8Ca-qo-SXN"/>
+                                                <constraint firstItem="DMX-n4-ca3" firstAttribute="top" secondItem="UGB-D2-iFS" secondAttribute="top" id="Bcq-PO-NvT"/>
+                                                <constraint firstItem="3Ni-yY-i0q" firstAttribute="leading" secondItem="UGB-D2-iFS" secondAttribute="leading" id="F1w-Sq-b8I"/>
+                                                <constraint firstItem="DMX-n4-ca3" firstAttribute="leading" secondItem="3Ni-yY-i0q" secondAttribute="trailing" id="HHU-pi-V61"/>
+                                                <constraint firstAttribute="bottom" secondItem="DMX-n4-ca3" secondAttribute="bottom" id="fVG-qk-uQT"/>
+                                                <constraint firstItem="3Ni-yY-i0q" firstAttribute="top" secondItem="UGB-D2-iFS" secondAttribute="top" id="npy-BX-fgu"/>
+                                                <constraint firstAttribute="bottom" secondItem="3Ni-yY-i0q" secondAttribute="bottom" id="yjp-e6-XfW"/>
+                                            </constraints>
+                                        </stackView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="yEk-2H-f9c" firstAttribute="centerX" secondItem="XUZ-ZR-SiV" secondAttribute="centerX" id="Exw-0E-f3K"/>
+                                        <constraint firstItem="yEk-2H-f9c" firstAttribute="centerY" secondItem="XUZ-ZR-SiV" secondAttribute="centerY" id="HUB-E7-pQ2"/>
+                                        <constraint firstAttribute="bottom" secondItem="UGB-D2-iFS" secondAttribute="bottom" constant="70" id="Uc1-vH-lQj"/>
+                                        <constraint firstItem="UGB-D2-iFS" firstAttribute="centerX" secondItem="XUZ-ZR-SiV" secondAttribute="centerX" id="eQ8-N6-UZx"/>
+                                    </constraints>
+                                </view>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="4XN-z1-2bE" secondAttribute="trailing" id="1Wy-ZT-aFs"/>
+                            <constraint firstAttribute="bottom" secondItem="4XN-z1-2bE" secondAttribute="bottom" id="59T-us-fPP"/>
+                            <constraint firstItem="Ezh-ef-iBv" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="6vc-5u-8WE"/>
+                            <constraint firstItem="4XN-z1-2bE" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="FID-d4-9Of"/>
+                            <constraint firstItem="4XN-z1-2bE" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="XXj-kG-1xP"/>
+                            <constraint firstAttribute="bottom" secondItem="Ezh-ef-iBv" secondAttribute="bottom" id="aVq-AT-0nq"/>
+                            <constraint firstItem="Ezh-ef-iBv" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="hdl-YY-ed7"/>
+                            <constraint firstAttribute="trailing" secondItem="Ezh-ef-iBv" secondAttribute="trailing" id="kay-H6-aiN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="iSY-qS-7OB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="51.5625" y="374.23133235724742"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background" width="160" height="240"/>
+        <image name="icon" width="125" height="125"/>
+    </resources>
+</document>
